@@ -1,0 +1,58 @@
+body.tidy-mode {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    cursor: pointer;
+    color: #00509e;
+    padding: 5px 0;
+}
+
+button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+p {
+    padding: 5px 20px;
+    display: block;
+}
+
+
+body.messy-mode {
+    font-family: 'Comic Sans MS', cursive;
+    color: #2e2e2e;
+    background-color: #ffdd57;
+    line-height: 1.1;
+}
+
+body.messy-mode h1, body.messy-mode h2 {
+    text-align: left;
+    color: #f00;
+    background-color: #0f0;
+    padding: 5px;
+}
+
+body.messy-mode h3 {
+    color: #900;
+    background-color: #ff0;
+    padding: 2px 10px;
+}
+
+body.messy-mode p {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+}
